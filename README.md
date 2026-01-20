@@ -20,5 +20,7 @@ This repository contains the implementation for training local experts on the **
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/DAMLE.git](https://github.com/your-username/DAMLE.git)
+   git clone https://github.com/your-username/DAMLE.git
    cd DAMLE
+
+   ```
