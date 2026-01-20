@@ -28,7 +28,7 @@ logging.basicConfig(filename=os.path.join(output_path, 'training.log'), level=lo
 logging.info(f"Python version: {sys.version}")
 logging.info(f"NumPy version: {np.__version__}")
 logging.info(f"Matplotlib version: {matplotlib.__version__}")
-print("Test GH")
+
 # --- Configuration ---
 data_path = r"/......./new_patches/new_patches/C_0/"  # change the path accordingly
 output_path = r"/....../new_patches/new_patches/C_0/"  # change the path accordingly
