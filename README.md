@@ -4,7 +4,7 @@
 
 **DAMLE** is a privacy-preserving, federated-style framework for histopathology image classification. It utilizes a **Proximity-Guided Meta-Learning** approach to synthesize predictions from frozen, hospital-specific expert models (ViT) without requiring raw data exchange or retraining large backbones.
 
-This repository contains the implementation for training local experts on the **Camelyon17** dataset and aggregating them via an Attention Gating Network.
+This repository contains the implementation for training local experts on the [**Camelyon17**](https://github.com/p-lambda/wilds/tree/main/dataset_preprocessing/camelyon17) dataset and aggregating them via an Attention Gating Network.
 
 ## 📂 Repository Structure
 
@@ -22,5 +22,4 @@ This repository contains the implementation for training local experts on the **
    ```bash
    git clone https://github.com/your-username/DAMLE.git
    cd DAMLE
-
    ```
